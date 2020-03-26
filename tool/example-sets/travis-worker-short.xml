@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnalysisProgramOfRegionAnalysisSessionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SaveName>travis-worker-short</SaveName>
+  <LearningData>
+    <InputPaths>
+      <string>misc/connectbot@connectbot/1.log</string>
+      <string>misc/connectbot@connectbot/4.log</string>
+      <string>misc/facebookgo@rocks-strata/148104998.log</string>
+      <string>misc/regression-tests/220.log</string>
+    </InputPaths>
+    <Examples>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/1.log</InputPath>
+        <Output>worker-linux-7-1.bb.travis-ci.org:travis-linux-18</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/4.log</InputPath>
+        <Output>worker-linux-7-2.bb.travis-ci.org:travis-linux-3</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/facebookgo@rocks-strata/148104998.log</InputPath>
+        <Output>worker-linux-docker-1571fced.prod.travis-ci.org:travis-linux-10</Output>
+      </ExampleDataOfString>
+    </Examples>
+  </LearningData>
+  <LogKind>
+    <Language>all</Language>
+    <BuildTool>all</BuildTool>
+  </LogKind>
+  <Target>TravisWorker</Target>
+</AnalysisProgramOfRegionAnalysisSessionString>

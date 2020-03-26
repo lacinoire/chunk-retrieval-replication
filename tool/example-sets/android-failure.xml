@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnalysisProgramOfRegionAnalysisSessionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SaveName>android-failure</SaveName>
+  <LearningData>
+    <InputPaths>
+      <string>misc/connectbot@connectbot/3.log</string>
+      <string>misc/connectbot@connectbot/5.log</string>
+      <string>misc/connectbot@connectbot/6.log</string>
+      <string>misc/connectbot@connectbot/16.log</string>
+    </InputPaths>
+    <Examples>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/3.log</InputPath>
+        <Output>Execution failed for task ':app:compileDebugNdk'.
+> NDK not configured.
+  Download the NDK from http://developer.android.com/tools/sdk/ndk/.Then add ndk.dir=path/to/ndk in local.properties.
+  (On Windows, make sure you escape backslashes, e.g. C:\\ndk rather than C:\ndk)</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/5.log</InputPath>
+        <Output>Execution failed for task ':app:connectedAndroidTest'.
+> com.android.builder.testing.api.DeviceException: java.lang.RuntimeException: No connected devices!</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/6.log</InputPath>
+        <Output>Execution failed for task ':app:connectedAndroidTest'.
+> com.android.builder.testing.api.DeviceException: java.lang.RuntimeException: No connected devices!</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/16.log</InputPath>
+        <Output>Execution failed for task ':app:checkstyle'.
+> Checkstyle rule violations were found. See the report at: file:///home/travis/build/connectbot/connectbot/app/build/reports/checkstyle/checkstyle.xml</Output>
+      </ExampleDataOfString>
+    </Examples>
+  </LearningData>
+  <LogKind>
+    <Language>java</Language>
+    <BuildTool>android</BuildTool>
+  </LogKind>
+  <Target>BuildFailureReason</Target>
+</AnalysisProgramOfRegionAnalysisSessionString>

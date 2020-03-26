@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/results/
+**/env/
+
+**/.vscode
+chunk-retrieval-replication.zip
+/chunk-retrieval-replication/

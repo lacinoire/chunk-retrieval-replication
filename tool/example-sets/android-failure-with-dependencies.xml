@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnalysisProgramOfRegionAnalysisSessionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SaveName>android-failure-with-dependencies</SaveName>
+  <LearningData>
+    <InputPaths>
+      <string>misc/connectbot@connectbot/3.log</string>
+      <string>misc/connectbot@connectbot/5.log</string>
+      <string>misc/connectbot@connectbot/6.log</string>
+      <string>misc/connectbot@connectbot/16.log</string>
+      <string>misc/connectbot@connectbot/311.log</string>
+      <string>misc/connectbot@connectbot/68.log</string>
+      <string>misc/connectbot@connectbot/72.log</string>
+      <string>misc/connectbot@connectbot/71.log</string>
+      <string>misc/connectbot@connectbot/70.log</string>
+      <string>misc/connectbot@connectbot/64.log</string>
+      <string>misc/connectbot@connectbot/310.log</string>
+    </InputPaths>
+    <Examples>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/3.log</InputPath>
+        <Output>Execution failed for task ':app:compileDebugNdk'.
+> NDK not configured.
+  Download the NDK from http://developer.android.com/tools/sdk/ndk/.Then add ndk.dir=path/to/ndk in local.properties.
+  (On Windows, make sure you escape backslashes, e.g. C:\\ndk rather than C:\ndk)</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/72.log</InputPath>
+        <Output>A problem occurred configuring project ':app'.
+> Could not resolve all dependencies for configuration ':app:_debugCompile'.
+   > Could not find any version that matches com.android.support:support-v4:22.0.+.
+     Searched in the following locations:
+         file:/usr/local/android-sdk/extras/google/m2repository/com/android/support/support-v4/maven-metadata.xml
+         file:/usr/local/android-sdk/extras/google/m2repository/com/android/support/support-v4/
+     Required by:
+         connectbot:app:unspecified</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/311.log</InputPath>
+        <Output>Could not determine the dependencies of task ':app:jacocoTestDebugReport'.
+> Task with path 'testDebug' not found in project ':app'.</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/5.log</InputPath>
+        <Output>Execution failed for task ':app:connectedAndroidTest'.
+> com.android.builder.testing.api.DeviceException: java.lang.RuntimeException: No connected devices!</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/16.log</InputPath>
+        <Output>Execution failed for task ':app:checkstyle'.
+> Checkstyle rule violations were found. See the report at: file:///home/travis/build/connectbot/connectbot/app/build/reports/checkstyle/checkstyle.xml</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/6.log</InputPath>
+        <Output>Execution failed for task ':app:connectedAndroidTest'.
+> com.android.builder.testing.api.DeviceException: java.lang.RuntimeException: No connected devices!</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/71.log</InputPath>
+        <Output>A problem occurred configuring project ':app'.
+> Could not resolve all dependencies for configuration ':app:_debugCompile'.
+   > Could not find any version that matches com.android.support:support-v4:22.0.+.
+     Searched in the following locations:
+         file:/usr/local/android-sdk/extras/google/m2repository/com/android/support/support-v4/maven-metadata.xml
+         file:/usr/local/android-sdk/extras/google/m2repository/com/android/support/support-v4/
+     Required by:
+         connectbot:app:unspecified</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/310.log</InputPath>
+        <Output>Could not determine the dependencies of task ':app:jacocoTestDebugReport'.
+> Task with path 'testDebug' not found in project ':app'.</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/70.log</InputPath>
+        <Output>A problem occurred configuring project ':app'.
+> Could not resolve all dependencies for configuration ':app:_debugCompile'.
+   > Could not find any version that matches com.android.support:support-v4:22.0.+.
+     Searched in the following locations:
+         file:/usr/local/android-sdk/extras/google/m2repository/com/android/support/support-v4/maven-metadata.xml
+         file:/usr/local/android-sdk/extras/google/m2repository/com/android/support/support-v4/
+     Required by:
+         connectbot:app:unspecified</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/68.log</InputPath>
+        <Output>Execution failed for task ':app:checkstyle'.
+> Checkstyle rule violations were found. See the report at: file:///home/travis/build/connectbot/connectbot/app/build/reports/checkstyle/checkstyle.xml</Output>
+      </ExampleDataOfString>
+      <ExampleDataOfString>
+        <InputPath>misc/connectbot@connectbot/64.log</InputPath>
+        <Output>A problem occurred configuring project ':app'.
+> Could not resolve all dependencies for configuration ':app:_debugCompile'.
+   > Could not find any version that matches com.android.support:support-v4:22.0.+.
+     Searched in the following locations:
+         file:/usr/local/android-sdk/extras/google/m2repository/com/android/support/support-v4/maven-metadata.xml
+         file:/usr/local/android-sdk/extras/google/m2repository/com/android/support/support-v4/
+     Required by:
+         connectbot:app:unspecified</Output>
+      </ExampleDataOfString>
+    </Examples>
+  </LearningData>
+  <LogKind>
+    <Language>java</Language>
+    <BuildTool>android</BuildTool>
+  </LogKind>
+  <Target>BuildFailureReason</Target>
+</AnalysisProgramOfRegionAnalysisSessionString>
