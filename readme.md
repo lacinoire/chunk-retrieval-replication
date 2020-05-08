@@ -1,4 +1,6 @@
 # How to Analyze Build Logs - A Comparative Study of Chunk Retrieval Techniques
+[![DOI](https://zenodo.org/badge/250046048.svg)](https://zenodo.org/badge/latestdoi/250046048)
+
 
 Welcome to our replication package! 😊
 
